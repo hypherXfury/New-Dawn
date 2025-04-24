@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 0e53b63b662ccf24b94afee33c33a0ae
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: c50be3bae5afd504c8f2e822ba69e2e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cage
+    second: {fileID: 2100000, guid: 8614fbd5021b654448410ea2b0c796b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caps
+    second: {fileID: 2100000, guid: 320f895fe054e774dadde7956f4deb40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels
+    second: {fileID: 2100000, guid: bd9aa9611bf920c4bbba1775ebe3fd79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe_Flange
+    second: {fileID: 2100000, guid: c965b61daeb2b7744a9487227428a326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe_Flange2
+    second: {fileID: 2100000, guid: 0d3393d30d528ee4a86b486e9f1b0cb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screws
+    second: {fileID: 2100000, guid: 7e5a1f3bc0a909947b5e959db38e8c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Supports
+    second: {fileID: 2100000, guid: bcf9bba38c68e604b8086fd82ac672ed, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Body_BaseColor.1001
+    second: {fileID: 2800000, guid: 3b0064310cc335546b7dd7cec4a743b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Body_Metallic.1001
+    second: {fileID: 2800000, guid: 430536fd57d9b3742ba33613397d91c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Body_Normal.1001
+    second: {fileID: 2800000, guid: 398869996945d59469f25102debb28f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Body_Roughness.1001
+    second: {fileID: 2800000, guid: df9ca1d7f2801a242918f6af0b33cc92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Cage_BaseColor.1001
+    second: {fileID: 2800000, guid: 8d3cf6184f3071d40a54319563fbddd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Cage_Metallic.1001
+    second: {fileID: 2800000, guid: c84626209961f704b86538c4950b67bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Cage_Normal.1001
+    second: {fileID: 2800000, guid: ed6d4526aab50b34785e08ac4ca89d1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Cage_Roughness.1001
+    second: {fileID: 2800000, guid: ad3187a5fce85c04d80957afcddbae4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Caps_BaseColor.1001
+    second: {fileID: 2800000, guid: d7d8a34e3ee11834e8abcacf033ff2ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Caps_Metallic.1001
+    second: {fileID: 2800000, guid: 0e8e636c9b8da2242812a94e696cd0c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Caps_Normal.1001
+    second: {fileID: 2800000, guid: fb2f45faa8ef2204fb3f21a068124bff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Caps_Roughness.1001
+    second: {fileID: 2800000, guid: 91799b525f625dc4c9103982083cf09d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Panels_BaseColor.1001
+    second: {fileID: 2800000, guid: 4c0a734c5f465804cb34a7f6ce43a6e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Panels_Metallic.1001
+    second: {fileID: 2800000, guid: 1c4ff40017523b34eb7b81818b5d9cac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Panels_Normal.1001
+    second: {fileID: 2800000, guid: 48f857e9ad753f548b2f585076c94a7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Panels_Roughness.1001
+    second: {fileID: 2800000, guid: ea729d254bfaff24abe860778d91c206, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Screws_BaseColor.1001
+    second: {fileID: 2800000, guid: 46dbf5000b3a7434d86d2ab10a1d1c13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Screws_Metallic.1001
+    second: {fileID: 2800000, guid: 56139bd8974946c498eb131fab11a409, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Screws_Normal.1001
+    second: {fileID: 2800000, guid: 7d043ee8395318b4eacd95433f51d97b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Screws_Roughness.1001
+    second: {fileID: 2800000, guid: 51a1863d4da56dc4aa74f6695c1c6d96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Supports_BaseColor.1001
+    second: {fileID: 2800000, guid: 8f9cc685526cc194ea93baf25dc3fc9f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Supports_Metallic.1001
+    second: {fileID: 2800000, guid: 66288d9e94315e4468eebcf1ad8638d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Supports_Normal.1001
+    second: {fileID: 2800000, guid: d4e65090c4391384186e899b5c91f26b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rotorobj_Supports_Roughness.1001
+    second: {fileID: 2800000, guid: 49f0570cc406d1d4e972128256db81ea, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
