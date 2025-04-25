@@ -14,3 +14,4 @@ A video is provided on how to set-up and navigate inside unity to easily go thro
 
 
 You can play the finished(alpha released) game through my itch website - http://vaibhavxfury.itch.io/new-dawn
+The alpha released has many things that need to be done like player death logic and some visuals, it will be done in upcoming days...
