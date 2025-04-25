@@ -796,6 +796,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 179923317}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 179923322}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 179923321}
   m_SourcePrefab: {fileID: 100100000, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
 --- !u!4 &179923315 stripped
 Transform:
@@ -971,7 +977,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hearingRange: 20
-  attackRange: 2
+  attackRange: 2.2
   attackCooldown: 1.75
   health: 200
   bloodDropRange: {x: 5, y: 15}
@@ -981,6 +987,52 @@ MonoBehaviour:
   chase: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
   attack: {fileID: 8300000, guid: 12e7285fa38aaf943a0ed8c7f3c684eb, type: 3}
   audioSource: {fileID: 179923317}
+--- !u!136 &179923321
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179923316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 2.08
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!136 &179923322
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179923316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &180201078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7437903239067101605, guid: ddcdd643f972acf43a6f5477c59db500, type: 3}
@@ -1896,6 +1948,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 465391210}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 465391215}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 465391214}
   m_SourcePrefab: {fileID: 100100000, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
 --- !u!4 &465391208 stripped
 Transform:
@@ -2071,7 +2129,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hearingRange: 20
-  attackRange: 2
+  attackRange: 2.2
   attackCooldown: 1.75
   health: 200
   bloodDropRange: {x: 5, y: 15}
@@ -2081,6 +2139,52 @@ MonoBehaviour:
   chase: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
   attack: {fileID: 8300000, guid: 12e7285fa38aaf943a0ed8c7f3c684eb, type: 3}
   audioSource: {fileID: 465391210}
+--- !u!136 &465391214
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465391209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 2.08
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!136 &465391215
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465391209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &466688131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2901,6 +3005,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 749032406}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 749032411}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 749032410}
   m_SourcePrefab: {fileID: 100100000, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
 --- !u!4 &749032404 stripped
 Transform:
@@ -3076,7 +3186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hearingRange: 20
-  attackRange: 2
+  attackRange: 2.2
   attackCooldown: 1.75
   health: 200
   bloodDropRange: {x: 5, y: 15}
@@ -3086,6 +3196,52 @@ MonoBehaviour:
   chase: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
   attack: {fileID: 8300000, guid: 12e7285fa38aaf943a0ed8c7f3c684eb, type: 3}
   audioSource: {fileID: 749032406}
+--- !u!136 &749032410
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749032405}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 2.08
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!136 &749032411
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749032405}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &757321984
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,6 +5163,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1598385333}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1598385338}
   m_SourcePrefab: {fileID: 100100000, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
 --- !u!1 &1598385332 stripped
 GameObject:
@@ -5177,7 +5336,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hearingRange: 20
-  attackRange: 2
+  attackRange: 2.2
   attackCooldown: 1.75
   health: 200
   bloodDropRange: {x: 5, y: 15}
@@ -5192,6 +5351,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
   m_PrefabInstance: {fileID: 1598385331}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1598385338
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598385332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 2.08
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
 --- !u!1 &1622218737
 GameObject:
   m_ObjectHideFlags: 0
@@ -6655,6 +6837,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2096293478}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096293483}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096293482}
   m_SourcePrefab: {fileID: 100100000, guid: 166b0e625eb8a7a46bf2984c2f2731ec, type: 3}
 --- !u!4 &2096293476 stripped
 Transform:
@@ -6830,7 +7018,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   hearingRange: 20
-  attackRange: 2
+  attackRange: 2.2
   attackCooldown: 1.75
   health: 200
   bloodDropRange: {x: 5, y: 15}
@@ -6840,6 +7028,52 @@ MonoBehaviour:
   chase: {fileID: 8300000, guid: e1e7f406c66d0c34f94726e83f3b5cbd, type: 3}
   attack: {fileID: 8300000, guid: 12e7285fa38aaf943a0ed8c7f3c684eb, type: 3}
   audioSource: {fileID: 2096293478}
+--- !u!136 &2096293482
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096293477}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 2.08
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.97, z: 0}
+--- !u!136 &2096293483
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096293477}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &914307558825753736
 PrefabInstance:
   m_ObjectHideFlags: 0
