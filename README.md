@@ -10,3 +10,6 @@ How to Setup :-
 3. Click on "Add" then "Add project from Disk" to add this project to unity.
 4. Open the project
 A video is provided on how to set-up and navigate inside unity to easily go through the project (Link : ....)
+
+
+You can play the finished(alpha released) game through my itch website - http://vaibhavxfury.itch.io/new-dawn
