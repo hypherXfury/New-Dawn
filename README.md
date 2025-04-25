@@ -10,7 +10,7 @@ How to Setup :-
 2. Sign in or Sign up in unity and download their editor from the unity hub itself.
 3. Click on "Add" then "Add project from Disk" to add this project to unity.
 4. Open the project
-A video is provided on how to set-up and navigate inside unity to easily go through the project (Link : https://youtu.be/LdQ7S07sWvE)
+A video is provided on how to set-up and navigate inside unity to easily go through the project (Link : https://youtu.be/CU82j2LGrWw)
 
 
 You can play the finished(alpha released) game through my itch website - http://vaibhavxfury.itch.io/new-dawn
